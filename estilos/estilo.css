@@ -1,0 +1,85 @@
+@font-face {
+    font-family: halloween2;
+    src: url(../tipografias/hollows.ttf);
+}
+@font-face {
+    font-family: halloween3;
+    src: url(../tipografias/Viktors\ Littl\ Creepy\ Horror.ttf);
+}
+body {
+    background-color: black;
+}
+#container {
+    background-image: url(../imagenes/wallpaper.jpg);
+    width: 1366px;
+    height: 659px;
+}
+#ventana {
+    position: absolute;
+    left: 1000px;
+    top: 230px;
+    width: 30px;
+    height: 45px;
+    /*border: 1px solid white;*/
+}
+#screamer1 {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    width: 500px;
+    visibility: hidden;
+}
+p {
+    color: white;
+    font-family: halloween2;
+    font-size: 30px;
+    position: absolute;
+}
+#texto1 {
+    top: 80px;
+    left: 660px;
+    visibility: hidden;
+}
+#texto2 {
+    position: absolute;
+    top: 290px;
+    left: 120px;
+    text-align: center;
+} 
+#puerta {
+    position: absolute;
+    /*border: 1px solid white;*/
+    top: 370px;
+    left: 870px;
+    height: 100px;
+    width: 60px;
+}
+#texto3 {
+    left: 400px;
+    top: 200px;
+    color: red;
+    visibility: hidden;
+    text-align: center;
+}
+#zombie {
+    position: absolute;
+    top: 350px;
+    left: 200PX;
+    width: 250px;
+    visibility: hidden;
+}
+#ojo {
+    position: absolute;
+    top: 200px;
+    left: 270px;
+    width: 100px;
+}
+#texto4 {
+    position: absolute;
+    top: 260px;
+    left: 160px;
+    font-family: halloween3;
+    visibility: hidden;
+    color: brown;
+    text-shadow: 2px 2px 2px black;
+}

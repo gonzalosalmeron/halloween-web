@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Walking Dead</title>
+    <script src="javascripts/thewalkingdead.js"></script>
+    <link rel="stylesheet" href="estilos/estilo.css"> 
+</head>
+<body onload="sonar('musicaAmbiente')" >
+    <audio id="musicaAmbiente" src="sonidos/lullaby.mp3"></audio>
+    <audio id="zombiemp3" src="sonidos/zombie.mp3"></audio>
+    <audio id="gun" src="sonidos/gun.mp3"></audio>
+    <div id="container">
+        <p id="texto1">Hey ¿Qué es lo que asoma por la ventana?</p>
+        <image id="screamer1" src="imagenes/screamer1.gif"  ></image>
+        <audio id="screamermp3" src="sonidos/screamermp3.mp3" ></audio>
+        <id id="ventana" onclick="mostrar('screamer1');sonar('screamermp3')" 
+        onmouseout="ocultar('screamer1');parar('screamermp3')"></id>
+        <p id="texto2" >Parece que hay alguien en la casa,<br> toca a ver si hay alguien</p>
+        <p id="texto3">OH NO, UN ZOMBIE!!!<br>DISPÁRALE!!</p>
+        <image id="zombie" src="imagenes/zombie.gif" onclick="ocultar('zombie');sonar('gun');ocultar('texto3');mostrar('texto4');mostrar('texto1')" ></image>
+        <image  id="ojo" src="imagenes/ojo.gif"></image>
+        <id id="puerta" onclick="ocultar('texto2');mostrar('zombie');mostrar('texto3');mostrar('zombie');ocultar('ojo');sonar('zombiemp3')"></id>
+        <p id="texto4">Menos mal, lo has conseguido derrotar</p>
+    </div>
+</body>
+</html>
