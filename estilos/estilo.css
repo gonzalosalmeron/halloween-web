@@ -24,9 +24,9 @@ body {
 }
 #screamer1 {
     position: absolute;
-    left: 400px;
-    top: 50px;
-    width: 500px;
+    left: 700px;
+    top: 90px;
+    width: 600px;
     visibility: hidden;
 }
 p {
@@ -82,4 +82,34 @@ p {
     visibility: hidden;
     color: brown;
     text-shadow: 2px 2px 2px black;
+}
+#texto5 {
+    position: absolute;
+    top: 260px;
+    left: 160px;
+    font-family: halloween3;
+    visibility: hidden;
+    color: rgb(118, 12, 145);
+    font-size: 40px;
+}
+#fantasma2 {
+    position: absolute;
+    visibility: hidden;
+    top: 380px;
+    left: 240px;
+    width: 200px;
+}
+#enlace {
+    position: absolute;
+    color: rgb(13, 87, 46);
+    font-family: halloween2;
+    text-align: center;
+    padding: 8px;
+    font-size: 35px;
+    background-color: rgb(70, 19, 94);
+    border-radius: 60px;
+    width: 300px;
+    left: 180px;
+    top: 550px;
+    visibility: hidden;
 }

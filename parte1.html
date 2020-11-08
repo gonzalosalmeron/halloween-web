@@ -15,7 +15,7 @@
         <p id="texto1">Hey ¿Qué es lo que asoma por la ventana?</p>
         <image id="screamer1" src="imagenes/screamer1.gif"  ></image>
         <audio id="screamermp3" src="sonidos/screamermp3.mp3" ></audio>
-        <id id="ventana" onclick="mostrar('screamer1');sonar('screamermp3')" 
+        <id id="ventana" onclick="mostrar('screamer1');sonar('screamermp3');ocultar('texto1');ocultar('texto4');mostrar('texto5');mostrar('fantasma2');mostrar('enlace')" 
         onmouseout="ocultar('screamer1');parar('screamermp3')"></id>
         <p id="texto2" >Parece que hay alguien en la casa,<br> toca a ver si hay alguien</p>
         <p id="texto3">OH NO, UN ZOMBIE!!!<br>DISPÁRALE!!</p>
@@ -23,6 +23,9 @@
         <image  id="ojo" src="imagenes/ojo.gif"></image>
         <id id="puerta" onclick="ocultar('texto2');mostrar('zombie');mostrar('texto3');mostrar('zombie');ocultar('ojo');sonar('zombiemp3')"></id>
         <p id="texto4">Menos mal, lo has conseguido derrotar</p>
+        <p id="texto5">Hahahhahahah ¿Te asustaste?</p>
+        <image id="fantasma2" src="imagenes/fantasma2.gif" ></image>
+        <a id="enlace" href="parte2.html">No hagas clic</a>
     </div>
 </body>
 </html>

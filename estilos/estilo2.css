@@ -1,0 +1,15 @@
+#container {
+    background-image: url(../imagenes/wallpaper2.jpg);;
+    width: 1366px;
+    height: 769px;
+    background-repeat: no-repeat;
+}
+body {
+    background-color: black;
+}
+#happyhalloween {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    width: 400px;
+}
